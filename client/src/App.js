@@ -19,7 +19,7 @@ const App = () => {
         <MovieList />
       </Route>
       <Route path='/movies/:id'>
-        <Movie movie={props.match.params}/>
+        <Movie />
       </Route>
     </div>
   );
